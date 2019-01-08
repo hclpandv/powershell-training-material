@@ -26,7 +26,8 @@ Get-Command -CommandType Alias
 ```
 ![image](https://user-images.githubusercontent.com/13016162/50817593-5a007d80-134a-11e9-801c-36a1a9383fad.png)
 
-* Example | See the dir and ls both translates to `Get-ChildItem`
+* Example | See the `dir` i.e. legacy cmd command and `ls` i.e. Unix command both translates to `Get-ChildItem`
+
 ![image](https://user-images.githubusercontent.com/13016162/50818153-32121980-134c-11e9-9645-fd55d817dd1c.png)
 
 #### Cmd-Let
