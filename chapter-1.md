@@ -14,5 +14,9 @@
 
 * Types of commands in Powershell
 
+```PowerShell
+Get-Command | select CommandType -Unique | ft -AutoSize
+```
+
 ![image](https://user-images.githubusercontent.com/13016162/50817394-ad260080-1349-11e9-939e-8c187c0df7ee.png)
 
