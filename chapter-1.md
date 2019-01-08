@@ -25,3 +25,12 @@ Get-Command | select CommandType -Unique | ft -AutoSize
 Get-Command -CommandType Alias
 ```
 ![image](https://user-images.githubusercontent.com/13016162/50817593-5a007d80-134a-11e9-801c-36a1a9383fad.png)
+
+* Cmd-Let (Pronounced as `CommandLet`) is Native PowerShell smart functions
+* Input and Output of any given Cmd-Let is always an Object or a Collection of Objects  
+```PowerShell
+Get-Command -CommandType CmdLet
+```
+![image](https://user-images.githubusercontent.com/13016162/50817822-21ad6f00-134b-11e9-9fdb-6449cd7f6bc6.png)
+
+
