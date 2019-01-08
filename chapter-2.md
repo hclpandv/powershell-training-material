@@ -1,4 +1,4 @@
-## Chapter 1 | Look inside a `Cmd-Let`
+## Chapter 1 | Look inside a Cmd-Let
 
 * `Get-Help` to get a Help of any Cmd-Let
 
