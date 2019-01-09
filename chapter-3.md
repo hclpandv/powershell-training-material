@@ -1,6 +1,7 @@
 ## Chapter 3 | PSDrive and PSProviders
 
-* PSDrive is a PowerShell implementation of a storage i.e. PowerShell can see Registry as a storage(Think of FileSystem), and you can do `cd ..` into PSDrives
+* PSDrive is a PowerShell way of looking various storage types as Drive similar to filesystem drives.
+* This gives you capability do `cd ..` or `md` into PSDrives i.e. Registry, Certificates
 * CmdLet `Get-PSDrive` Lists all Logical Drives + PS Drives (Through PSProviders)
 
 ![image](https://user-images.githubusercontent.com/13016162/50873943-22481300-13e8-11e9-8c1e-69f7d22a2227.png)
