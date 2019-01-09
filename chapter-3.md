@@ -16,6 +16,8 @@
 
 ![image](https://user-images.githubusercontent.com/13016162/50874371-cda59780-13e9-11e9-82c6-4a12d255477b.png)
 
+* Lets Browse a Registry path and create a new hive and a key with a string value
+
 ![image](https://user-images.githubusercontent.com/13016162/50874797-5f61d480-13eb-11e9-9a17-30eb22695b45.png)
 
 ![image](https://user-images.githubusercontent.com/13016162/50874820-7e606680-13eb-11e9-9f34-cff86de5e5b1.png)
