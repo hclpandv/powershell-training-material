@@ -3,7 +3,8 @@
 * Parameters provide required inputs to Cmdlets if needed. Few CmdLets do not require any inputs few have mandatory parameters
 * Paremeters are provided using a `-` hyphon i.e. `Any-Cmdlet -Parameter1 -Parameter2`
 * Parameter values are supplied through a `<space>` char.
-* Example of such parameter is `Get-Process -Name svchost` here `-Name` is a Parameter
+* Example of such parameter is `Get-Process -Name svchost` here `-Name` is a Parameter and 'svchost' is its value.
+* If you use a `Get-Help` and see the syntax section, you will see a list of parameters which you can supply to given CmdLet
 
 ![image](https://user-images.githubusercontent.com/13016162/50883084-fa1edb00-140c-11e9-873e-1bd549a2f2f2.png)
 
