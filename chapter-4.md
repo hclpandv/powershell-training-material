@@ -8,6 +8,15 @@
 
 ![image](https://user-images.githubusercontent.com/13016162/50883084-fa1edb00-140c-11e9-873e-1bd549a2f2f2.png)
 
+* Single-Value Vs Multi-Value Parameter | Notice `<string>` vs `<string[]>`
+
+![image](https://user-images.githubusercontent.com/13016162/50893305-90abc600-1426-11e9-80c5-85763ec896bf.png)
+
+* Help shows Parameter data type. 
+* `<string>` is a single string i.e. Single Value can be supplied.
+* `<string[]>` is an array of strings i.e. Multiple string values can be supplied
+* Example `Test-Connection -ComputerName localhost server1`
+
 ### Common Parameters
 
 ![image](https://user-images.githubusercontent.com/13016162/50883162-48cc7500-140d-11e9-91cd-35b15bb1d2a6.png)
