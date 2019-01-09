@@ -15,7 +15,9 @@
 * Help shows Parameter data type. 
 * `<string>` is a single string i.e. Single Value can be supplied.
 * `<string[]>` is an array of strings i.e. Multiple string values can be supplied
-* Example `Test-Connection -ComputerName localhost server1`
+* Example `Test-Connection -ComputerName 127.0.0.1 10.0.0.1` here -ComputerName parameter is `<string[]>` type hence two IPs are supplied as input
+
+![image](https://user-images.githubusercontent.com/13016162/50893776-aff72300-1427-11e9-9bdc-43c1fe13e339.png)
 
 ### Common Parameters
 
