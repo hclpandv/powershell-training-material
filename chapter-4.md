@@ -4,13 +4,14 @@
 * Paremeters are provided using a `-` hyphon i.e. `Any-Cmdlet -Parameter1 -Parameter2`
 * Parameter values are supplied through a `<space>` char.
 * Example of such parameter is `Get-Process -Name svchost` here `-Name` is a Parameter and 'svchost' is its value.
-* If you directly supply parameter without using `-ParameterName` the first positional parameter will be considered as default
-
-![image](https://user-images.githubusercontent.com/13016162/50894379-1597df00-1429-11e9-84ad-863597f0efad.png)
 
 * If you use a `Get-Help` and see the syntax section, you will see a list of parameters which you can supply to given CmdLet
 
 ![image](https://user-images.githubusercontent.com/13016162/50883084-fa1edb00-140c-11e9-873e-1bd549a2f2f2.png)
+
+* If you directly supply parameter without using `-ParameterName` the first positional parameter will be considered as default
+
+![image](https://user-images.githubusercontent.com/13016162/50894379-1597df00-1429-11e9-84ad-863597f0efad.png)
 
 * Single-Value Vs Multi-Value Parameter | Notice `<string>` vs `<string[]>`
 
