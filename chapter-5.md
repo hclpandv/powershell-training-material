@@ -1,3 +1,4 @@
-## Chapter 5 | Parameters
+## Chapter 5 | The Pipe
 
-* Parameters provide required inputs to Cmdlets if needed. Few CmdLets do not require any inputs few have mandatory parameters
+* Pipe `|` Symbol is used to supply input to a Command-Let as an Output of Previous CmdLet
+* `Cmd-Let1 | Cmd-Let2` shows the Output of `Cmd-Let1` is being supplied as input to `Cmd-Let2`
