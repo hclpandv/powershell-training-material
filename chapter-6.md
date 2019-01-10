@@ -9,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/13016162/50956843-bac2be00-14e2-11e9-8ef4-c016eeeccc52.png)
 
 #### Filtering Output Rows `Where-Object`
-* The condition statement(s) can written in script block within curly braces i.e. `Where-object {ConditionalStatement}` 
+* The condition statement(s) can be written in script block within curly braces i.e. `Where-object {ConditionalStatement}` 
 * Objects which are being transferred through PipeLine from one CmdLet to other is denoted as `$_`
 * The property of these objects can be accessed via Dot `.` Symbol i.e. `$_.Name`
 
