@@ -50,27 +50,7 @@ SYNOPSIS
     Description
     -----------
     This command gets all processes that have a working set greater than 20 MB. It uses the Get-Process cmdlet to get a
-    ll running processes. The pipeline operator (|) passes the process objects to the Where-Object cmdlet, which select
-    s only the object with a value greater than 20,000,000 bytes for the WorkingSet property. 
-    
-    WorkingSet is one of many properties of process objects. To see all of the properties, type "Get-Process | Get-Memb
-    er". By default, the values of all amount properties are in bytes, even though the default display lists them in ki
-    lobytes and megabytes.    
-    -------------------------- EXAMPLE 4 --------------------------   
-    C:\PS>$a = get-process
-    
-    C:\PS> get-process -inputobject $a | format-table -view priority  
-    
-    Description
-    -----------
-    These  commands list the processes on the computer in groups based on their priority class. 
-    
-    The first command gets all the processes on the computer and then stores them in the $a variable. 
-    
-    The second command uses the InputObject parameter to pass the process objects that are stored in the $a variable to
-     the Get-Process  cmdlet. The pipeline operator passes the objects to the Format-Table cmdlet, which formats the pr
-    ocesses by using the Priority view. 
-    
+        
 ```
 
 * Use Get-Member : Cmd-Let Outputs an Object or a Collection of Objects - `Get-Member` helps to get detail about Methods and Properties of those Objects
