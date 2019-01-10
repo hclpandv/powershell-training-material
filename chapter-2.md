@@ -55,7 +55,7 @@ SYNOPSIS
 
 * Use Get-Member : Cmd-Let Outputs an Object or a Collection of Objects - `Get-Member` helps to get detail about Methods and Properties of those Objects
 
-* Notice the Object Type 
+* Notice the Object Type. This shows type of the Output Object(s) which is actually a an object of original .net class 
 
 ![image](https://user-images.githubusercontent.com/13016162/50949517-8c39e880-14cc-11e9-99f1-783ddfe8ee18.png)
 
