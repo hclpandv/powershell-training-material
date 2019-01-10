@@ -55,7 +55,9 @@ SYNOPSIS
 
 * Use Get-Member : Cmd-Let Outputs an Object or a Collection of Objects - `Get-Member` helps to get detail about Methods and Properties of those Objects
 
-![image](https://user-images.githubusercontent.com/13016162/50873558-87026e00-13e6-11e9-8c0a-b33af496770c.png)
+* Notice the Object Type 
+
+![image](https://user-images.githubusercontent.com/13016162/50949517-8c39e880-14cc-11e9-99f1-783ddfe8ee18.png)
 
 
 
