@@ -8,6 +8,6 @@
 
 ![image](https://user-images.githubusercontent.com/13016162/50950187-2a2eb280-14cf-11e9-95ba-9f10b9bd42a4.png)
 
-* A CmdLet must have a Paremeter which has `Accept pipeline input?` property as `True` either `(ByPropertyName)` or `true (ByValue)`
+* A CmdLet must have a Paremeter which has `Accept pipeline input?` property as `True` either `(ByPropertyName)` or `(ByValue)`
 
 
