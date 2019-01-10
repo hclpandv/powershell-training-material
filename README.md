@@ -5,3 +5,4 @@
 [Chapter 3 | PSDrive and PSProviders](chapter-3.md)  
 [Chapter 4 | Parameters](chapter-4.md)  
 [Chapter 5 | Pipe and the pipeline input](chapter-5.md)
+[Chapter 6 | Play with Pipeline](chapter-6.md)
