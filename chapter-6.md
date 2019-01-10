@@ -8,7 +8,7 @@
 
 ![image](https://user-images.githubusercontent.com/13016162/50956843-bac2be00-14e2-11e9-8ef4-c016eeeccc52.png)
 
-#### Filtering Output Rows `where-Object`
+#### Filtering Output Rows `Where-Object`
 
 ![image](https://user-images.githubusercontent.com/13016162/50957027-36246f80-14e3-11e9-9b50-e231229be405.png)
 
