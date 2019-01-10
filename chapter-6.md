@@ -2,7 +2,7 @@
 
 #### Seelecting Output Culumns `Select-Object`
 
-* Select-
+![image](https://user-images.githubusercontent.com/13016162/50956501-dc6f7580-14e1-11e9-9028-17471dd99e7d.png)
 
 #### Sorting Output by Column Value `Sort-Object`
 
