@@ -4,6 +4,10 @@
 
 ![image](https://user-images.githubusercontent.com/13016162/50814508-f2ddcb80-133f-11e9-9e30-2990a80e6e23.png)
 
+* Where is PowerShell Installed in your System ?
+
+![image](https://user-images.githubusercontent.com/13016162/51099237-9540f780-17f5-11e9-98d6-90ffccfb4103.png)
+
 #### Get All Cmd-Lets (Commands) available in your powershell session
 
 ![image](https://user-images.githubusercontent.com/13016162/50814614-4e0fbe00-1340-11e9-845e-0f9001d03741.png)
