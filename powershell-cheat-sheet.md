@@ -1,7 +1,11 @@
 ### PowerShell Scripting Cheatsheet
 
+* Loop Structure
+
+---
+
 <table>
-<tr><th>Conditions</th><th>Loops</th><th>Loops</th></tr>
+<tr><th>For Loop</th><th>Do While</th><th>ForEach Loop</th></tr>
 <tr><td>
 <pre>
 if($True){
