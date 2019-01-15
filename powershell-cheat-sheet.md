@@ -3,7 +3,7 @@
 * Basic
 
 <table>
-<tr><th>Input/Output</th><th>Variables</th><th>String Codes</th></tr>
+<tr><th>Input/Output</th><th>Objects Everywhere</th><th>String Quotes</th></tr>
 <tr><td>
 <pre>
 #Basic Input/Output
@@ -13,18 +13,16 @@ Write-Host "Hello $Name"
   
 </td><td>
 <pre>
-$collection = 1..10
-foreach($item in $collection){   
-   Write-Output $item
-}
+$my_string = "Hello"
+$my_string.Length #=> 5
+$my_string.ToUpper() #=> HELLO
 </pre>
   
 </td><td>
 <pre>
-$collection = 1..10
-foreach($item in $collection){   
-   Write-Output $item
-}
+$NAME="John"
+Write-Host "Hi $NAME"  #=> Hi John
+Write-Host 'Hi $NAME'  #=> Hi $NAME
 </pre>
 </td></tr> </table>
 
