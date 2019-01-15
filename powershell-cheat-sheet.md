@@ -1,17 +1,13 @@
 ### PowerShell Scripting Cheatsheet
 
 <table>
-<tr><th> Conditions </th><th>Loops</th></tr>
+<tr><th>Conditions</th><th>Loops</th><th>Loops</th></tr>
 <tr><td>
-
 <pre>
-
 if($True){
   write-host "Condition is True!!"
 }
-
 </pre>
-
 </td><td>
 <pre>
 $collection = 1..10
@@ -19,7 +15,6 @@ foreach($item in $collection){
    Write-Output $item
 }
 </pre>
-
 </td></tr> </table>
 
 ---
