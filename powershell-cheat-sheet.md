@@ -2,8 +2,6 @@
 
 * Loop Structure
 
----
-
 <table>
 <tr><th>For Loop</th><th>Do While</th><th>ForEach Loop</th></tr>
 <tr><td>
