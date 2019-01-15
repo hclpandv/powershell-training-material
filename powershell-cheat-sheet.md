@@ -1,5 +1,38 @@
 ### PowerShell Scripting Cheatsheet
 
+* Basic
+
+<table>
+<tr><th>Input/Output</th><th>Variables</th><th>String Codes</th></tr>
+<tr><td>
+<pre>
+# This is a Comment
+#Basic Input/Output
+
+$Name = Read-Host "Please Enter Your Name?"
+
+Write-Host "The Name Entered is : $Name"
+</pre>
+  
+</td><td>
+<pre>
+$collection = 1..10
+foreach($item in $collection){   
+   Write-Output $item
+}
+</pre>
+  
+</td><td>
+<pre>
+$collection = 1..10
+foreach($item in $collection){   
+   Write-Output $item
+}
+</pre>
+</td></tr> </table>
+
+---
+
 * Loop Structure
 
 <table>
