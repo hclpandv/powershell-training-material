@@ -7,7 +7,7 @@
 <tr><td>
 <pre>
 #Basic Input/Output
-$Name = Read-Host "Your Name"
+$Name = Read-Host "Your Name Plz"
 Write-Host "Hello $Name"
 </pre>
   
