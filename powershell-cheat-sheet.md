@@ -31,12 +31,23 @@ Write-Host 'Hi $NAME'  #=> Hi $NAME
 * Loop Structure
 
 <table>
-<tr><th>For Loop</th><th>Do While</th><th>ForEach Loop</th></tr>
+<tr><th>do-while</th><th>do-until</th><th>For Loop</th></tr>
 <tr><td>
 <pre>
-if($True){
-  write-host "Condition is True!!"
+do
+{
+  # Code
 }
+while ($x -gt 0)
+</pre>
+  
+</td><td>
+<pre>
+do
+{
+  # Code
+}
+until ($x -gt 0)
 </pre>
   
 </td><td>
@@ -45,14 +56,12 @@ $collection = 1..10
 foreach($item in $collection){   
    Write-Output $item
 }
-</pre>
-  
-</td><td>
-<pre>
-$collection = 1..10
-foreach($item in $collection){   
-   Write-Output $item
+
+for ($i = 1; $i -lt 99; $i++)
+{ 
+  # Code
 }
+
 </pre>
 </td></tr> </table>
 
