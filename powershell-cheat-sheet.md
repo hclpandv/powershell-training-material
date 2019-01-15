@@ -6,27 +6,17 @@
 
 <pre>
 
-$collection = 1..10
-
-foreach($item in $collection){
-   
-   Write-Output $item
-
+if($True){
+  write-host "Condition is True!!"
 }
 
 </pre>
 
 </td><td>
 <pre>
-json
-  {
-    "id": 10,
-    "username": "alanpartridge",
-    "email": "alan@alan.com",
-    "password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS",
-    "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",
-    "created_at": "2015-02-14T20:45:26.433Z",
-    "updated_at": "2015-02-14T20:45:26.540Z"
+$collection = 1..10
+foreach($item in $collection){   
+   Write-Output $item
 }
 </pre>
 
