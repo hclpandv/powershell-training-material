@@ -1,6 +1,32 @@
 ### PowerShell Scripting Cheatsheet
 
 <table>
+<tr><th>Table 1 Heading 1 </th><th>Table 2 Heading 2</th></tr>
+<tr><td>
+
+<pre>
+json
+  {
+    "id": 10,
+    "username": "alanpartridge",
+    "email": "alan@alan.com",
+    "password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS",
+    "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",
+    "created_at": "2015-02-14T20:45:26.433Z",
+    "updated_at": "2015-02-14T20:45:26.540Z"
+}
+</pre>
+
+</td><td>
+
+|b|1|2|3| 
+|--|--|--|--|
+|a|s|d|f|
+
+</td></tr> </table>
+
+---
+<table>
 <tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
 <tr><td>
 
