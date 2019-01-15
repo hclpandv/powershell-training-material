@@ -37,6 +37,8 @@ json
 </tr>
 </table>
 
+---
+
 <table>
 <colgroup>
 <col width="30%" />
