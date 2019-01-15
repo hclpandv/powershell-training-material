@@ -8,6 +8,15 @@ if($True){
   write-host "Condition is True!!"
 }
 </pre>
+  
+</td><td>
+<pre>
+$collection = 1..10
+foreach($item in $collection){   
+   Write-Output $item
+}
+</pre>
+  
 </td><td>
 <pre>
 $collection = 1..10
