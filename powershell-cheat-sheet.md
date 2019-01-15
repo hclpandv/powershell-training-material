@@ -1,5 +1,23 @@
 ### PowerShell Scripting Cheatsheet
 
+| Theme       | List                 |
+|-------------|----------------------|
+| Shopping    | :[grocery list][B2]  |
+| Programming | :[HTML elements][B3] |
+
+[B2]:
+- oranges
+- bananas
+- apples
+- lemons
+
+[B3]:
+```
+<html>
+<!-- some code block -->
+</html>
+```
+
 <table>
 <tr>
 <th>
