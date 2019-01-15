@@ -52,13 +52,10 @@ until ($x -gt 0)
   
 </td><td>
 <pre>
-$collection = 1..10
 foreach($item in $collection){   
    Write-Output $item
 }
-
-for ($i = 1; $i -lt 99; $i++)
-{ 
+for ($i = 1; $i -lt 99; $i++){ 
 }
 </pre>
 </td></tr> </table>
