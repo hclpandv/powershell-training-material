@@ -1,17 +1,6 @@
 ### PowerShell Cheat Sheet
 
 
-<table border="0">
- <tr>
-    <td><b style="font-size:30px">Title</b></td>
-    <td><b style="font-size:30px">Title 2</b></td>
- </tr>
- <tr>
-    <td>Lorem ipsum ...</td>
-    <td>Lorem ipsum ...</td>
- </tr>
-</table>
-
 | Format   | Tag example |
 | -------- | ----------- |
 | Headings | =heading1=<br>==heading2==<br>===heading3=== |
