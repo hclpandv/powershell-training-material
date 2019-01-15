@@ -19,7 +19,7 @@
 </tr>
 <tr>
 <td markdown="span">Second column **fields**</td>
-<td markdown="span">`Where-Object {$_.Length -ge 1000}`
+<td markdown="span">```Where-Object {$_.Length -ge 1000}```
 </td>
 </tr>
 </tbody>
