@@ -24,7 +24,7 @@
   </tfoot>
   <tbody>
     <tr>
-      <td>Alice</td>
+      <td>`Where-Object {$_.Length -ge 1000}`</td>
       <td>10</td>
       <td>11</td>
     </tr>
