@@ -1,13 +1,19 @@
 ### PowerShell Scripting Cheatsheet
 
 <table>
-<tr><th> Conditions </th><th>Table 2 Heading 2</th></tr>
+<tr><th> Conditions </th><th>Loops</th></tr>
 <tr><td>
 
 <pre>
-if($true){
-  Write-Host "The Condition is True!!"
+
+$collection = 1..10
+
+foreach($item in $collection){
+   
+   Write-Output $item
+
 }
+
 </pre>
 
 </td><td>
