@@ -36,7 +36,7 @@ Write-Host 'Hi $NAME'  #=> Hi $NAME
 <pre>
 do
 {
-  # Code
+  # Code to Execute
 }
 while ($x -gt 0)
 </pre>
@@ -45,7 +45,7 @@ while ($x -gt 0)
 <pre>
 do
 {
-  # Code
+  # Code to Execute
 }
 until ($x -gt 0)
 </pre>
