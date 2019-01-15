@@ -41,9 +41,11 @@ Get-Command -CommandType Alias
 * Cmd-Let (Pronounced as `CommandLet`) is Native PowerShell smart functions
 * Cmd-Let has standard naming convention i.e. `Verb-Noun` and Microsoft recomend the same naming if a vendor or any user writes any custom Cmd-Let
 * Input and Output of any given Cmd-Let is always an Object or a Collection of Objects  
+
 ```PowerShell
 Get-Command -CommandType CmdLet
 ```
+
 ![image](https://user-images.githubusercontent.com/13016162/50817822-21ad6f00-134b-11e9-9fdb-6449cd7f6bc6.png)
 
 
