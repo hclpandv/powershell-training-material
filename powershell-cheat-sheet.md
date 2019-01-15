@@ -6,12 +6,9 @@
 <tr><th>Input/Output</th><th>Variables</th><th>String Codes</th></tr>
 <tr><td>
 <pre>
-# This is a Comment
 #Basic Input/Output
-
-$Name = Read-Host "Please Enter Your Name?"
-
-Write-Host "The Name Entered is : $Name"
+$Name = Read-Host "Enter Your Name"
+Write-Host "The Name Entered is $Name"
 </pre>
   
 </td><td>
