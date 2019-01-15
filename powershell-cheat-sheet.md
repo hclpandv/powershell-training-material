@@ -1,5 +1,11 @@
 ### PowerShell Cheat Sheet
 
+| Format   | Tag example |
+| -------- | ----------- |
+| Headings | =heading1=<br>==heading2==<br>===heading3=== |
+| New paragraph | A blank line starts a new paragraph |
+| Source code block |  // all on one line<br> {{{ if (foo) bar else   baz }}} |
+
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
