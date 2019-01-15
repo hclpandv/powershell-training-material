@@ -22,12 +22,15 @@
 Get-Command | select CommandType -Unique | ft -AutoSize
 ```
 
-![image](https://user-images.githubusercontent.com/13016162/50817394-ad260080-1349-11e9-939e-8c187c0df7ee.png)
+![image](https://user-images.githubusercontent.com/13016162/50817394-ad260080-1349-11e9-939e-8c187c0df7ee.png
+
 #### Alias
 * Aliases translates to one of other Cmd-Let
+
 ```PowerShell
 Get-Command -CommandType Alias
 ```
+
 ![image](https://user-images.githubusercontent.com/13016162/50817593-5a007d80-134a-11e9-801c-36a1a9383fad.png)
 
 * Example | See the `dir` i.e. legacy cmd command and `ls` i.e. Unix command both translates to `Get-ChildItem`
