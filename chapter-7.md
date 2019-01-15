@@ -3,4 +3,8 @@
 * File size can be accessed through `$_.Length` property. However it shows in Bytes. 
 * Lets Customise it and get in MB
 
+```PowerShell
+Get-ChildItem C:\Windows\System32\ | Sort-Object Length -Descending | Select-Object @{name="Size(MB)";expression={$_.Length / 1MB -as [int]}} -First 10 | Format-Table -AutoSize
+```
+
 ![image](https://user-images.githubusercontent.com/13016162/51099363-34fe8580-17f6-11e9-8140-c5fce1c13f8e.png)
