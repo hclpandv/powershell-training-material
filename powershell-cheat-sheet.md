@@ -107,7 +107,7 @@ foreach($item in $collection){
 ### # Arrays
 
 <table>
-<tr><th>Defining Arrays</th><th>Working with Arrays/th></tr>
+<tr><th>Defining Arrays</th><th>Working with Arrays</th></tr>
 <tr><td>
 <pre>
 if($expression -eq $true){
