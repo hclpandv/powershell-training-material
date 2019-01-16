@@ -112,6 +112,7 @@ foreach($item in $collection){
 <pre>
 $my_numbers = 1..100
 $Fruits = 'Apple', 'Banana', 'Orange'
+$Fruits = @('Apple', 'Banana', 'Orange')
 
 $Fruits[0] = "Apple"
 $Fruits[1] = "Banana"
