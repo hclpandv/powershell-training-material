@@ -1,7 +1,5 @@
 ## PowerShell Scripting Cheatsheet
 
-### Basics
-
 <table>
 <tr><th>Input/Output</th><th>Objects Everywhere</th><th>String Quotes</th></tr>
 <tr><td bgcolor="#012456">
@@ -100,6 +98,6 @@ for ($i = 1; $i -lt 99; $i++){
 </pre>
 </td></tr></table>
 
----
+<!---      -->
 
 
