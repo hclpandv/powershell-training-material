@@ -90,7 +90,7 @@ do
 until ($x -gt 0)
 </pre>
   
-<tr><td bgcolor="#012456">
+</td><td bgcolor="#012456">
 <pre style="background-color:#012456;color:#EEEDF0">
 foreach($item in $collection){   
    Write-Output $item
@@ -99,7 +99,7 @@ for ($i = 1; $i -lt 99; $i++){
   # Code to Execute
 }
 </pre>
-</td></tr> </table>
+</td></tr></table>
 
 ---
 
