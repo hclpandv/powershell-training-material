@@ -110,26 +110,22 @@ foreach($item in $collection){
 <tr><th>Defining Arrays</th><th>Working with Arrays</th></tr>
 <tr><td>
 <pre>
-if($expression -eq $true){
-  Write-Host "Cond. True" 
-}
-elseif{
-  Write-Host "2nd True"
-}
-else{
-  Write-Host "Cond. False" 
-}
+$my_numbers = 1..100
+$Fruits = 'Apple', 'Banana', 'Orange'
+
+$Fruits[0] = "Apple"
+$Fruits[1] = "Banana"
+$Fruits[2] = "Orange"
+
 </pre>
   
 </td><td bgcolor="#012456">
 <pre style="background-color:#012456;color:#EEEDF0">
-switch ($x)
-{
-    'value1' {}
-    {$_ -in 'A','B','C'} {}
-    'value3' {}
-    Default {}
-} 
+Write-Host $Fruits[0]           # Element #0
+Write-Host $Fruits.Count        # Number of elements
+Write-Host $Fruits[0].Length    # String length of the 1st element
+Write-Host $Fruits[0..1]        # Array from first to Nth element
+Write-Host $Fruits[-2]          # Second last element of the Array
 </pre>
 
 </td></tr> </table>
