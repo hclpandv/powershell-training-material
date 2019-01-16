@@ -28,6 +28,46 @@ Write-Host 'Hi $NAME'  #=> Hi $NAME
 
 ---
 
+* Conditional Structure
+
+<table>
+<tr><th>if-else</th><th>switch-case</th><th>expressions</th></tr>
+<tr><td>
+<pre>
+if($expression -eq $true){
+  Write-Host "Cond. True" 
+}
+elseif{
+  Write-Host "2nd True"
+}
+else{
+  Write-Host "Cond. False" 
+}
+</pre>
+  
+</td><td bgcolor="#012456">
+<pre style="background-color:#012456;color:#EEEDF0">
+switch ($x)
+{
+    'value1' {}
+    {$_ -in 'A','B','C'} {}
+    'value3' {}
+    Default {}
+} 
+</pre>
+  
+</td><td>
+<pre>
+$true #=> True
+1 #=> True
+$null #=> False
+$empty = "" #=> False
+CmdLet-ReturnsFalse #=> False 
+</pre>
+</td></tr> </table>
+
+---
+
 * Loop Structure
 
 <table>
