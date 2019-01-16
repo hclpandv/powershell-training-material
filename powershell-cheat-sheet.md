@@ -133,4 +133,20 @@ Write-Host $Fruits[-2]          # Second last element of the Array
 
 <!---      -->
 
+<table>
+<tr><th>Hash Table or Dictionary</th></tr>
+<tr><td>
+<pre>
+$my_vm_config = @{
+                "hostname" = "vm00002314";
+                "pvt_ip" = "10.48.3.12"; 
+                "domain"= "vikiscripts.github.io"
+}
+
+Write-Host $my_vm_config.pvt_ip #=> 10.48.3.12
+
+</pre>
+  
+</td></tr> </table>
+
 
