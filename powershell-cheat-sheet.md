@@ -5,11 +5,11 @@
 <table>
 <tr><th>Input/Output</th><th>Objects Everywhere</th><th>String Quotes</th></tr>
 <tr><td bgcolor="#00FF00">
-<!-- <pre> -->
+<pre style="color:darkblue">
 #Basic Input/Output
 $Name = Read-Host "Your Name Plz"
 Write-Host "Hello $Name"
-<!-- </pre> -->
+</pre>
   
 </td><td>
 <pre>
