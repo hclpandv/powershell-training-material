@@ -65,15 +65,15 @@ CmdLet-ReturnsFalse #=> False
 
 <!---      -->
 
-### Loop Structure
+### # Loop Structure
 
 <table>
-<tr><th>do-while</th><th>do-until</th><th>For Loop</th></tr>
+<tr><th>do-while</th><th>do-until</th><th>For Loop</th><th>ForEach Loop</th></tr>
 <tr><td bgcolor="#012456">
 <pre style="background-color:#012456;color:#EEEDF0">
 do
 {
-  # Code to Execute
+  # Code
 }
 while ($x -gt 0)
 </pre>
@@ -82,18 +82,22 @@ while ($x -gt 0)
 <pre>
 do
 {
-  # Code to Execute
+  # Code
 }
 until ($x -gt 0)
 </pre>
   
 </td><td bgcolor="#012456">
 <pre style="background-color:#012456;color:#EEEDF0">
+for ($i = 1; $i -lt 99; $i++){ 
+  # Code
+}
+</pre>
+  
+</td><td>
+<pre>
 foreach($item in $collection){   
    Write-Output $item
-}
-for ($i = 1; $i -lt 99; $i++){ 
-  # Code to Execute
 }
 </pre>
 </td></tr></table>
