@@ -72,8 +72,8 @@ CmdLet-ReturnsFalse #=> False
 
 <table>
 <tr><th>do-while</th><th>do-until</th><th>For Loop</th></tr>
-<tr><td>
-<pre>
+<tr><td bgcolor="#012456">
+<pre style="background-color:#012456;color:#EEEDF0">
 do
 {
   # Code to Execute
@@ -90,8 +90,8 @@ do
 until ($x -gt 0)
 </pre>
   
-</td><td>
-<pre>
+<tr><td bgcolor="#012456">
+<pre style="background-color:#012456;color:#EEEDF0">
 foreach($item in $collection){   
    Write-Output $item
 }
