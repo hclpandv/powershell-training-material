@@ -18,8 +18,8 @@ $my_string.Length #=> 5
 $my_string.ToUpper() #=> HELLO
 </pre>
   
-</td><td>
-<pre>
+</td><td bgcolor="#012456">
+<pre style="background-color:#012456;color:#EEEDF0">
 $NAME="John"
 Write-Host "Hi $NAME"  #=> Hi John
 Write-Host 'Hi $NAME'  #=> Hi $NAME
