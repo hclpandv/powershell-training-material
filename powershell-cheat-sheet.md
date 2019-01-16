@@ -25,10 +25,9 @@ Write-Host "Hi $NAME"  #=> Hi John
 Write-Host 'Hi $NAME'  #=> Hi $NAME
 </pre>
 </td></tr> </table>
+<!---      -->
 
----
-
-* Conditional Structure
+### Conditional Structure
 
 <table>
 <tr><th>if-else</th><th>switch-case</th><th>expressions</th></tr>
@@ -66,9 +65,9 @@ CmdLet-ReturnsFalse #=> False
 </pre>
 </td></tr> </table>
 
----
+<!---      -->
 
-* Loop Structure
+### Loop Structure
 
 <table>
 <tr><th>do-while</th><th>do-until</th><th>For Loop</th></tr>
