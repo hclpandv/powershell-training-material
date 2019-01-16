@@ -5,7 +5,7 @@
 <table>
 <tr><th>Input/Output</th><th>Objects Everywhere</th><th>String Quotes</th></tr>
 <tr><td bgcolor="#00FF00">
-<pre style="color:darkblue">
+<pre style="background-color:darkblue">
 #Basic Input/Output
 $Name = Read-Host "Your Name Plz"
 Write-Host "Hello $Name"
