@@ -1,6 +1,6 @@
-### PowerShell Scripting Cheatsheet
+## PowerShell Scripting Cheatsheet
 
-* Basic
+### Basics
 
 <table>
 <tr><th>Input/Output</th><th>Objects Everywhere</th><th>String Quotes</th></tr>
