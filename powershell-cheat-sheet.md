@@ -104,4 +104,36 @@ foreach($item in $collection){
 
 <!---      -->
 
+### # Arrays
+
+<table>
+<tr><th>Defining Arrays</th><th>Working with Arrays/th></tr>
+<tr><td>
+<pre>
+if($expression -eq $true){
+  Write-Host "Cond. True" 
+}
+elseif{
+  Write-Host "2nd True"
+}
+else{
+  Write-Host "Cond. False" 
+}
+</pre>
+  
+</td><td bgcolor="#012456">
+<pre style="background-color:#012456;color:#EEEDF0">
+switch ($x)
+{
+    'value1' {}
+    {$_ -in 'A','B','C'} {}
+    'value3' {}
+    Default {}
+} 
+</pre>
+
+</td></tr> </table>
+
+<!---      -->
+
 
