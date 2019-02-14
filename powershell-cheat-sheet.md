@@ -155,7 +155,7 @@ Write-Host $my_vm_config.pvt_ip #=> 10.48.3.12
 <tr><th>Execute a Remote Script</th></tr>
 </td><td bgcolor="#012456">
 <pre style="background-color:#012456;color:#EEEDF0">
-iex ((New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/AdamDimech/08ba988211b55c71a480449b3b8ab6cd/raw'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/hclpandv/76739cc615f3eee0d4722243379d324f/raw/9573fa17aadee9f0b5fb71d38cccefde8b4a220b/CheckSumCalc.ps1'))
 </pre>
 
 </td></tr> </table>
