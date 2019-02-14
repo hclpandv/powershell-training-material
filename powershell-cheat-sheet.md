@@ -149,4 +149,16 @@ Write-Host $my_vm_config.pvt_ip #=> 10.48.3.12
   
 </td></tr> </table>
 
+### # Execute PowerShell Script from GitHub
+
+<table>
+<tr><th>Execute a Remote Script</th></tr>
+</td><td bgcolor="#012456">
+<pre style="background-color:#012456;color:#EEEDF0">
+iex ((New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/AdamDimech/08ba988211b55c71a480449b3b8ab6cd/raw'))
+</pre>
+
+</td></tr> </table>
+
+
 
