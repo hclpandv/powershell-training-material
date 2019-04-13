@@ -22,7 +22,7 @@
 Get-Command | select CommandType -Unique | ft -AutoSize
 ```
 
-![image](https://user-images.githubusercontent.com/13016162/50817394-ad260080-1349-11e9-939e-8c187c0df7ee.png
+![image](https://user-images.githubusercontent.com/13016162/50817394-ad260080-1349-11e9-939e-8c187c0df7ee.png)
 
 #### Alias
 * Aliases translates to one of other Cmd-Let
