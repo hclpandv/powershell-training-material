@@ -7,8 +7,8 @@
 [Chapter 6 : Play with Pipeline](chapter-6.md)  
 [Chapter 7 : Selecting Your Own Custom Property](chapter-7.md)
 
-[PowerShell Scripting Cheat Sheet](powershell-cheat-sheet.md)
-[Advanced Powershell traning wiki](https://github.com/hclpandv/powershell-training-material/wiki)
+[PowerShell Scripting Cheat Sheet](powershell-cheat-sheet.md)  
+[Advanced Powershell traning wiki](https://github.com/hclpandv/powershell-training-material/wiki)  
 
   
   
