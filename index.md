@@ -8,7 +8,7 @@
 [Chapter 7 : Selecting Your Own Custom Property](chapter-7.md)
 
 [PowerShell Scripting Cheat Sheet](powershell-cheat-sheet.md)  
-[Advanced Powershell traning wiki](https://github.com/hclpandv/powershell-training-material/wiki)  
+[Advanced Powershell training wiki](https://github.com/hclpandv/powershell-training-material/wiki)  
 
   
   
