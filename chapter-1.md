@@ -26,6 +26,10 @@ Get-Command | select CommandType -Unique | ft -AutoSize
 
 #### Get All Cmd-Lets available via a specific module
 
+```PowerShell
+Get-Command -Module <module_name>
+```
+
 ![image](https://user-images.githubusercontent.com/13016162/71236136-2bde3880-2324-11ea-9e90-cd3dc5097845.png)
 
 
