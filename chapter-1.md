@@ -24,6 +24,11 @@ Get-Command | select CommandType -Unique | ft -AutoSize
 
 ![image](https://user-images.githubusercontent.com/13016162/50817394-ad260080-1349-11e9-939e-8c187c0df7ee.png)
 
+#### Get All Cmd-Lets available via a specific module
+
+![image](https://user-images.githubusercontent.com/13016162/71236136-2bde3880-2324-11ea-9e90-cd3dc5097845.png)
+
+
 #### Alias
 * Aliases translates to one of other Cmd-Let
 
